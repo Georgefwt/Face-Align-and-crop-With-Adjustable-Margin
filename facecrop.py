@@ -1,6 +1,5 @@
 import cv2, dlib, argparse
 from utils import extract_left_eye_center, extract_right_eye_center, get_rotation_matrix, crop_image
-import matplotlib.pyplot as plt
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Align faces in image')

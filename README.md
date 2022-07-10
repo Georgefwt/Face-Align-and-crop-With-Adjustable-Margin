@@ -12,10 +12,10 @@
 #### Run:
 
 ```
-python facecrop.py \<image input\> \<image output\> -m 1.5 -s 1
+python facecrop.py <image input> <image output> [-m 1.5] [-s 1]
 ```
 
-`m` represent margin around the face, default is 1.5, s represent scale, default is 1.
+`m` represent margin around the face, default is 1.5, `s` represent scale, default is 1.
 
 #### Results
 
