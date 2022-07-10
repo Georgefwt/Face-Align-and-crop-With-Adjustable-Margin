@@ -21,11 +21,11 @@ python facecrop.py \<image input\> \<image output\> -m 1.5 -s 1
 
 **image input**
 
-![Messi](D:\Algorithms\face-align-and-crop-with-adjustable-margin\Messi.jpg)
+![Messi](./Messi.jpg)
 
 **image output**
 
-![res](D:\Algorithms\face-align-and-crop-with-adjustable-margin\res.jpg)
+![res](./res.jpg)
 
 
 ##### Dependencies:
