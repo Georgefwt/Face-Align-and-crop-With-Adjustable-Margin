@@ -1,5 +1,6 @@
 import numpy as np
 import cv2
+from PIL import Image
 
 
 LEFT_EYE_INDICES = [36, 37, 38, 39, 40, 41]
@@ -52,4 +53,6 @@ def crop_image(image, det,margin):
     right = int(center[0] + half_width * margin)
     top = int(center[1] - half_height * margin)
     bottom = int(center[1] + half_height * margin)
-    return image[top:bottom, left:right]
+    image = Image.fromarray(image)
+    return image.crop((left, top, right, bottom))
+    # return image[top:bottom, left:right]

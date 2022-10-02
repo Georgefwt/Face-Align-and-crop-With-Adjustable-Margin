@@ -6,8 +6,9 @@
 
 1. Run `pip install -r requirements.txt`
 2. Download and extract shape predictor 68 landmarks at this [link](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2).
-3. Place the extracted predictor in the root directory of this project.
-4. Find some images with faces.
+3. Download and extract shape predictor 5 landmarks at this [link](http://dlib.net/files/shape_predictor_5_face_landmarks.dat.bz2).
+4. Place the extracted predictor in the root directory of this project.
+5. Find some images with faces.
 
 #### Run:
 
